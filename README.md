@@ -1,4 +1,5 @@
-# onlinemanagement-web
+
+# onlinemanagement-web by Johannes Bauerˆ
 
 ## Project setup
 ```

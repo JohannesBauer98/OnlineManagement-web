@@ -1,0 +1,16 @@
+{
+  "login": {
+    "login": "Anmelden"
+  },
+  "label": {
+    "email": "E-Mail Adresse",
+    "password": "Passwort"
+  },
+  "button": {
+    "signIn": "Anmelden"
+  },
+  "link": {
+    "signUp": "neues Konto anlegen",
+    "forgotPassword": "Passwort vergessen?"
+  }
+}

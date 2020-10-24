@@ -1,12 +1,18 @@
 <template>
-  <div class="vue-tempalte">
-    <!-- Main -->
-    <div class="App">
-      <div class="vertical-center">
-        <div class="inner-block">
-          <router-view />
-        </div>
-      </div>
-    </div>
-  </div>
+  <v-app>
+    <router-view/>
+  </v-app>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component({
+  components: {}
+})
+export default class App extends Vue {}
+</script>
+
+<style>
+
+</style>

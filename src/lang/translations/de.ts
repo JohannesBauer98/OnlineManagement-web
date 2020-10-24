@@ -1,4 +1,4 @@
-{
+export const de = {
   "signIn": {
     "heading": "Anmelden"
   },

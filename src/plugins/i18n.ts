@@ -7,5 +7,5 @@ Vue.use(VueI18n)
 export default new VueI18n({
     locale: 'de',
     fallbackLocale: 'en',
-    messages: i18nLocales
+    messages: i18nLocales,
 })

@@ -6,13 +6,7 @@
       </v-row>
     </template>
     <template v-slot:default>
-      <template v-if="!somethingFailed">
-        <v-row align="top">
-          <p>TEST</p>
-        </v-row>
-      </template>
-      <template v-else>
-        <p>Hier sind aktuell keine Informationen verfügbar, da aktuell keine Stores mit ihrem Account verknüpft sind.</p>
+      <template>
       </template>
     </template>
   </base-page>

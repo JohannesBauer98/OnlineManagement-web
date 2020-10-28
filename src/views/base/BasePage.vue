@@ -16,7 +16,7 @@ import {Component, Vue} from "vue-property-decorator";
   name: "BasePage",
   components: {}
 })
-export default class Base extends Vue {
+export default class BasePage extends Vue {
   // Props
   // Data
   // Hook Callbacks
@@ -29,5 +29,8 @@ export default class Base extends Vue {
 </script>
 
 <style scoped>
-
+.page-title {
+  font-size: 1.5em;
+  color: #707070;
+}
 </style>

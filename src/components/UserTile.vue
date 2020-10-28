@@ -6,7 +6,7 @@
         <v-list-item-subtitle>{{user.email}}</v-list-item-subtitle>
       </v-list-item-content>
 
-      <v-list-item-action class="logout-icon">
+      <v-list-item-action class="ma-0">
         <v-btn icon @click="logout"><v-icon>mdi-logout</v-icon></v-btn>
       </v-list-item-action>
     </v-list-item>
@@ -16,6 +16,7 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import User from "@/models/User";
+import {AuthenticationModule} from "@/store/modules/authentication";
 
 @Component({
   name: "UserTile"
@@ -25,13 +26,10 @@ export default class UserTile extends Vue {
   public user!: User;
 
   logout() {
-    //@ToDo: Logout
+    AuthenticationModule.logout();
   }
 }
 </script>
 
 <style scoped>
-.logout-icon {
-  margin: 0!important;
-}
 </style>

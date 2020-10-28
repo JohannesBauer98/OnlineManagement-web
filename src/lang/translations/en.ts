@@ -1,27 +1,11 @@
+import {signIn} from "@/lang/translations/signIn/en";
+import {labels} from "@/lang/translations/labels/en";
+import {buttons} from "@/lang/translations/buttons/en";
+import {links} from "@/lang/translations/links/en";
+
 export const en = {
-  "signIn": {
-    "heading": "Anmelden"
-  },
-  "signUp": {
-    "heading": "Registrieren",
-    "alreadyRegistered": "Bereits registriert?"
-  },
-  "forgotPassword": {
-    "heading": "Passwort vergessen"
-  },
-  "label": {
-    "sirName": "Vorname",
-    "lastName": "Nachname",
-    "email": "E-Mail Adresse",
-    "password": "Passwort"
-  },
-  "button": {
-    "signIn": "Anmelden",
-    "signUp": "Registrieren",
-    "resetPassword": "Passwort zurücksetzen"
-  },
-  "link": {
-    "signUp": "neues Konto anlegen",
-    "forgotPassword": "Passwort vergessen?"
-  }
+  signIn: signIn,
+  label: labels,
+  button: buttons,
+  link: links
 }
